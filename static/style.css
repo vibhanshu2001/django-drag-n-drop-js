@@ -1,0 +1,19 @@
+body{
+    background-color: #f8f8f8;
+
+}
+.dz{
+    border: dashed !important;
+    border-color: #ccc !important;
+    border-radius: 10px !important;
+}
+.dz:hover{
+    background-color: aliceblue !important; 
+}
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 80vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+  }
